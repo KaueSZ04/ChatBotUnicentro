@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "saudacao",
+     "patterns": ["Oi", "Ola", "Oi tudo bem:", "Tem alguem ai?", "Pode me ajudar"],
+     "responses": ["Oi tudo bem e voce ?", "Ola, como posso te ajudar ?", "Oi, como podemos te ajudar?"],
+     "context_set": ""
+    },
+    {"tag": "despedida",
+     "patterns": ["Tchau", "Ate mais", "abracos", "Adeus"],
+     "responses": ["Até mais, obrigado!", "Tenha um otimo dia!", "Atè, um abraço."]
+    },
+    {"tag": "agradecimento",
+     "patterns": ["Obrigado", "Obrigado pela ajuda", "Muito obrgado","Voce me ajudou", "valeu", "beijos lindo"],
+     "responses": ["De nada!", "Fico feliz em ajudar!", "Disponha", "Por nada!"]
+    },
+    {"tag": "horarioAluno",
+     "patterns": ["Gostaria de saber sobre horarios das aulas?", "As aulas começam que horas?", "Qual o horario de aula", "em que horario tenho aula hoje"],
+     "responses": ["Claro, estes sao os seus horarios: https://graduacao.unicentro.br/aonline/default.asp", "Seus horarios estao aqui: https://graduacao.unicentro.br/aonline/default.asp"]
+    },
+    {"tag": "horarioCampus",
+     "patterns": ["Gostaria de saber sobre horarios do campus?", "em que horas o campus atende?", "Qual o horario de atendimento"],
+     "responses": ["Claro, o campus fica aberto das 8:00 ate as 22:00, com pausa para o almoço", "Você pode ser atendido em qualquer horario entre 8:00 e 22:00, com pausa para o almoço entre 12:00 e 13:00"]
+    },
+    {"tag": "editais",
+     "patterns": ["Onde posso encontrar informações sobre editais?", "Qual a aba do site para editais?", "Onde ficam os editais?" ],
+     "responses": ["Você pode encontrar os editais neste link: https://www3.unicentro.br/?s=editais.", "Claro, aqui está o link para a pesquisa 'editais': https://www3.unicentro.br/?s=editais"]
+    },
+    {"tag": "iniciacaoCientifica",
+     "patterns": ["Onde tenho acesso as informações sobre Iniciação cientifica?", "Onde vejo sobre IC?", "Como posso saber mais sobre IC?" ],
+     "responses": ["Voce pode encontrar mais informações sobre Iniciação Cientifica neste link: https://www3.unicentro.br/propesp/ic/", "Saiba mais sobre IC neste link: https://www3.unicentro.br/propesp/ic/"]
+    },
+    {"tag": "calendario",
+     "patterns": ["Onde vejo o calendario deste ano?", "Pode me mandar o calendario?", "Quero perguntar sobre calendario"],
+     "responses": ["Acesse o link: https://www3.unicentro.br/calendario/","Saiba mais sobre calendario no link: https://www3.unicentro.br/calendario/"]
+    }
+  ]
+  }
